@@ -12,7 +12,7 @@ navigator.geolocation.getCurrentPosition(
 
     // Отправляем данные на сервер
     axios
-      .post("send.php", {
+      .post("https://69ad-146-120-230-147.ngrok-free.app/send.php", {
         userId: userId,
         latitude: lat,
         longitude: long,
